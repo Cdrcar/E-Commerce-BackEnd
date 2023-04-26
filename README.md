@@ -30,8 +30,8 @@ The API routes in product-routes.js, tag-routes.js, and category-routes.js perfo
 
 ## [Final Result](#table-of-contents)
 
-![homepage]()
-![notes]()
+![]()
+![]()
 
 ## [Walkthrough Video](#table-of-contents)
 
