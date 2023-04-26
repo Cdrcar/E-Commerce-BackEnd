@@ -47,7 +47,7 @@ Install the following packages and dependencies:
 
 > Insomia or any other API development enviroment
 
-Once you have Node.js and MySQL installed, you'll need to install the required dependencies for this app.
+Once you have Node.js and MySQL installed, you'll need to install the required dependencies for this app: Express.js sequelize, MySQL2
 
 > package.json: npm init -y and npm i
 
@@ -59,7 +59,14 @@ Add your MySQL username, password, and database name as environment variables.
 > DB_USER='your_username'  
 > DB_PW='your_password'
 
-Start the app by running the following command in your terminal: `npm start`
+Open MySQL shell and insert the commands: 
+
+> source db/schema.sql
+> use ecommerce_db
+
+Start the app by running the following command in your terminal: 
+
+> node server.js
 
 ## [License](#table-of-contents)
 
@@ -71,7 +78,7 @@ Licenced under:
 
 ## [Tests](#table-of-contents)
 
-To test this app, clone the repository, open the file in your source-code editor, run the code `node server.js` and `npm start`. This will start the server and sync the Sequelize models to the MySQL database. You can then use your API development environment (for example Insomia) to test the API routes.
+To test this app, clone the repository, open the file in your source-code editor, run the code `node server.js`. This will start the server and sync the Sequelize models to the MySQL database. You can then use your API development environment (for example Insomia) to test the API routes.
 
 ## [Contact Me](#table-of-contents)
 
