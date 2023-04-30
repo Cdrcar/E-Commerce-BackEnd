@@ -64,8 +64,10 @@ Open MySQL shell and insert the commands:
 > source db/schema.sql
 > use ecommerce_db
 
+Exit MySQL shell and 
 Start the app by running the following command in your terminal: 
 
+> npm run seed
 > node server.js
 
 ## [License](#table-of-contents)
@@ -78,7 +80,7 @@ Licenced under:
 
 ## [Tests](#table-of-contents)
 
-To test this app, clone the repository, open the file in your source-code editor, run the code `node server.js`. This will start the server and sync the Sequelize models to the MySQL database. You can then use your API development environment (for example Insomia) to test the API routes.
+To test this app, clone the repository, open the file in your source-code editor, complete the installation and usage running the code `node server.js`. This will start the server and sync the Sequelize models to the MySQL database. You can then use your API development environment (for example Insomnia) to test the API routes using different HTTP request methods like get, post, put and delete.
 
 ## [Contact Me](#table-of-contents)
 
