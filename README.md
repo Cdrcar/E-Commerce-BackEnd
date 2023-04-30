@@ -30,12 +30,12 @@ The API routes in product-routes.js, tag-routes.js, and category-routes.js perfo
 
 ## [Final Result](#table-of-contents)
 
-![]()
-![]()
+![categories](./assets/categories.png)
+![products](./assets/products.png)
 
 ## [Walkthrough Video](#table-of-contents)
 
-[Link to walkthrough video]()
+[Link to walkthrough video](https://drive.google.com/file/d/1Ka3vO8PW0_AA86UbirSOsdj7fX5Xh_-8/view)
 
 ## [Installation](#table-of-contents)
 
